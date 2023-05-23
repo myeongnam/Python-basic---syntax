@@ -141,7 +141,7 @@
 # a = "I studied  %s very hard %d times" % (language, int(times))
 # print (a)
 
-# #아래와 같이 코딩하면 따옴표로 열고 닫고를 너무 많이해서 비효율적.
+# # 아래와 같이 코딩하면 따옴표로 열고 닫고를 너무 많이해서 비효율적.
 # a = "I studied" + language + "very hard" + str(times)+ "times"
 
 # age = input("나이가 몇살이신가요?")
@@ -202,10 +202,20 @@
 
 
 
-a = input("첫번쨰 문자를 입력해주세요")
-b = input("첫번쨰 문자를 입력해주세요")
-c = input("첫번쨰 문자를 입력해주세요")
+# a = input("첫번쨰 문자를 입력해주세요")
+# b = input("첫번쨰 문자를 입력해주세요")
+# c = input("첫번쨰 문자를 입력해주세요")
 
-abc = a[0] + b[0] + c[0]
+# abc = a[0] + b[0] + c[0]
 
-print(abc)
+# print(abc)
+
+
+a = int(input("지방의 그램을 입력하세요"))
+b = int(input("탄수화물의 그램을 입력하세요"))
+c =  int(input("단백질의 그램을 입력하세요"))
+
+
+abc = (a + b + c)
+
+print (abc)
