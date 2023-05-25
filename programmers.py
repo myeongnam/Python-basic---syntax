@@ -48,3 +48,17 @@
 #             num2 = num2+ 1
 #     answer = [num1,num2]
 #     return answer
+
+
+# numbers = [1, 2, 3, 4, 5]
+# for a in numbers:
+#     print(a*2)
+
+
+participant = ["leo","leo", "kiki", "eden"]
+completion = ["eden", "leo","kiki"]
+for p in participant:
+    if p in  completion:
+        completion.remove(p)
+    else:
+        print(p)
