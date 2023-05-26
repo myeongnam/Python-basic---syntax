@@ -54,11 +54,69 @@
 # for a in numbers:
 #     print(a*2)
 
+# 완주하지 못한 선수
+#과부하걸림
+# participant = ["leo","leo", "kiki", "eden"]
+# completion = ["eden", "leo","kiki"]
+# for p in participant:
+#     if p in  completion:
+#         completion.remove(p)
+#     else:
+#         print(p)
 
-participant = ["leo","leo", "kiki", "eden"]
-completion = ["eden", "leo","kiki"]
-for p in participant:
-    if p in  completion:
-        completion.remove(p)
-    else:
-        print(p)
+# # 완주하지 못한 선수
+# completion를 dict 로 변환
+# # participant 를 for 문으로 1개씩 꺼내서 completion[p]= completion[p]-1
+
+#  participant = ["leo","leo", "kiki", "eden"]
+#  completion = ["eden", "leo","kiki"]
+
+# dictc = {}
+#  for c in participant:
+#   if c not in dictc.keys():
+#        dictc[c] = 1
+#   else:
+#     dictc[c] = dictc[c]+1
+
+# for p in participant:
+#   if p in dictc and dictc[p]>0:
+#     dictc[p]= dictc[p]-1
+#   else:
+#     answer = p
+  
+# # 개미군단
+# hp = int()
+# for a in hp:
+#     a / 5 
+
+
+
+# lista = ["1","2","3","4","1","1","3"]
+# counta = lista.count("1")
+# print(counta)
+
+# 7의 갯수
+# array = [7, 77, 17]
+# answer = 0
+# #문자를 변환해서 쪼개서
+# for a in array:
+#     b = str(a)
+#     answer += b.count("7")
+
+# print(answer)
+
+# # counta = a.count("7")
+    
+
+while True:
+     listSize = int(input("리스트의 크기를 입력해주세요"))
+     if listSize >10:
+          print("다시입력해주세요")
+          continue
+     a=0
+     lista = []
+     while a < listSize:
+      listValue = input("리스트 값을 입력해주세요")
+      lista.append(listValue)
+      a+=1
+     print(lista)
