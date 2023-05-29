@@ -65,7 +65,7 @@
 #         print(p)
 
 # # 완주하지 못한 선수
-# completion를 dict 로 변환
+# completion를 dict 로 변환삼h
 # # participant 를 for 문으로 1개씩 꺼내서 completion[p]= completion[p]-1
 
 #  participant = ["leo","leo", "kiki", "eden"]
@@ -108,15 +108,42 @@
 # # counta = a.count("7")
     
 
-while True:
-     listSize = int(input("리스트의 크기를 입력해주세요"))
-     if listSize >10:
-          print("다시입력해주세요")
-          continue
-     a=0
-     lista = []
-     while a < listSize:
-      listValue = input("리스트 값을 입력해주세요")
-      lista.append(listValue)
-      a+=1
-     print(lista)
+
+# 카카오톡 문제 확인 
+# while True:
+#      listSize = int(input("리스트의 크기를 입력해주세요"))
+#      if listSize >10:
+#           print("다시입력해주세요")
+#           continue
+#      a=0
+#      lista = []
+#      while a < listSize:
+#       listValue = input("리스트 값을 입력해주세요")
+#       lista.append(listValue)
+#       a+=1
+#      print(lista)
+
+
+
+# # 행렬의 덧셈 - 프래그래머스
+# arr1 = [[1,2],[2,3]]
+# arr2 = [[3,4],[5,6]]
+# answer = 0
+# for a in range(len(arr1)):
+#     temp= []
+#     for b in range(len(arr1[0])):
+#         temp.append(arr1[a][b]+arr2[a][b])
+#     answer.append(temp)
+# anwser = [[4,6],[7,9]]
+
+
+
+
+price = 150000
+for a in price:
+    if a >= 100000:
+        print(a-a*0.05)
+    if a >= 300000:
+        print(a-a*0.1)
+    if a >= 500000:
+        print(a-a*0.2)
