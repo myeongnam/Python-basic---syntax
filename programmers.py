@@ -129,21 +129,59 @@
 # arr1 = [[1,2],[2,3]]
 # arr2 = [[3,4],[5,6]]
 # answer = 0
-# for a in range(len(arr1)):
-#     temp= []
-#     for b in range(len(arr1[0])):
-#         temp.append(arr1[a][b]+arr2[a][b])
-#     answer.append(temp)
-# anwser = [[4,6],[7,9]]
+# # for a in range(len(arr1)):
+# #     temp= []
+# #     for b in range(len(arr1[0])):
+# #         temp.append(arr1[a][b]+arr2[a][b])
+# #     answer.append(temp)
+# # anwser = [[4,6],[7,9]]
 
 
 
 
-price = 150000
-for a in price:
-    if a >= 100000:
-        print(a-a*0.05)
-    if a >= 300000:
-        print(a-a*0.1)
-    if a >= 500000:
-        print(a-a*0.2)
+# # price = 150000
+# # for a in price:
+# #     if a >= 100000:
+# #         print(a-a*0.05)
+# #     if a >= 300000:
+# #         print(a-a*0.1)
+# #     if a >= 500000:
+# #         print(a-a*0.2)
+
+
+# def myPlusFunc(myInput):
+#     totalNum = 0 
+#     for a in range(1, myInput+1):
+#         totalNum += a
+#     return totalNum
+# result1 = myPlusFunc(20)
+# result2 = myPlusFunc(40)
+# print(result1)
+# print(result2)
+
+
+
+# lista = [1,4,6,9]
+# # print(lista.index(9))
+# for a in range(len(lista)):
+#     if lista[a] == 9:
+#         print(a)
+#         break
+
+# for a in range(len(lista)):
+#      if lista[a] == 9:
+#             print(a)
+#             break
+
+
+
+
+def myIndex(i1,i2):
+    result = -1
+    for a in range(len(i1)):
+        if lista[a] == i2: 
+            result = a
+      
+        return 
+        break
+    return result
