@@ -174,14 +174,23 @@
 #             break
 
 
+def two_times(x):
+    return x*2
+lst = list(map(two_times,[1,2,3,4]))
+print(lst)
 
 
-def myIndex(i1,i2):
-    result = -1
-    for a in range(len(i1)):
-        if lista[a] == i2: 
-            result = a
+lst = list(map(lambda x: x**2,[1,2,3,4]))
+print(lst)
+
+
+
+# def myIndex(i1,i2):
+#     result = -1
+#     for a in range(len(i1)):
+#         if lista[a] == i2: 
+#             result = a
       
-        return 
-        break
-    return result
+#         return 
+#         break
+#     return result
