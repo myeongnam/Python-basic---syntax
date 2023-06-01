@@ -7,7 +7,7 @@
 # a = 1
 # b = '1'
 
-# # print는 실행후 결과값을 가시적으로 보여주기위래 터미널창에 출력하는 것
+# # print는 실행후 결과값을 가시적으로 보여주기위해 터미널창에 출력하는 것
 # print (a)
 # print(b)
 
@@ -57,7 +57,7 @@
 # world"""
 # print(a)
 
-#이스케이프문을 활용한 줄바꿈
+# 이스케이프문을 활용한 줄바꿈
 # 이스케이프문이란 \n 또는 \t 등의 특수기호를 말한다.
 # \n : 줄바꿈 , \t : tap키
 # 역슬래시의 또다른 활용 : 특수문자를 있는 그대로 표현하는 역할
@@ -102,12 +102,12 @@
 # print (a[-1])
 # # 문자열의 길이를 구하는 함수는  len()
 # a = "python's fun python's fun python's fun"
-# print(a[len(a)-1])
+# print(a[len(a)-1])   
 
 # # 문자열의 슬라이싱
 # # 슬라이싱이란 문자열을 잘라낸는 것을 의미하고, 
 # # 대상변수[x:y] : x이상  y미만의 
-# # index를 가진 문자열을 잘라낸다
+# # # index를 가진 문자열을 잘라낸다
 # a = "python is fun"
 # # python만 잘라내서 b에 담아 출력해주세요.
 # b = a[0:6]
@@ -121,11 +121,11 @@
 # print(a[2:7:2])
 
 # # a = '20220505children's_day' 슬라이싱을 이용하여 date 라는 변수에 날짜 day 라는 변수에 children's_day 를 담아서 각각 출력하시오.
-# a = "20220505children's_day"
-# date = a[:8]
-# day =  a[8:]
-# print(date)
-# print(day)
+a = "20220505children's_day"
+date = a[:8]
+day =  a[8:]
+print(date)
+print(day)
 
 # 문자열 포맷팅이란 문자열 중간에 특정 문자(또는 숫자 등)를 삽입하는 방식.
 # # %s : 문자열, %d : 정수, %f는 실수
@@ -208,14 +208,14 @@
 
 # abc = a[0] + b[0] + c[0]
 
-# print(abc)
+# # print(abc)
 
 
-a = int(input("지방의 그램을 입력하세요"))
-b = int(input("탄수화물의 그램을 입력하세요"))
-c =  int(input("단백질의 그램을 입력하세요"))
+# a = int(input("지방의 그램을 입력하세요"))
+# b = int(input("탄수화물의 그램을 입력하세요"))
+# c =  int(input("단백질의 그램을 입력하세요"))
 
 
-abc = (a + b + c)
+# abc = (a + b + c)
 
-print (abc)
+# print (abc)
